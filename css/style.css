@@ -118,6 +118,7 @@ h3 {
 .btn {
   border: 1px solid black;
   padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 .btn:hover {
