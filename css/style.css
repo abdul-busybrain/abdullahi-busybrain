@@ -11,8 +11,8 @@ html {
 }
 
 body {
-  margin: 0 auto;
-  width: 60%;
+  margin: 2rem auto;
+  max-width: 60%;
   font-size: 1.7rem;
   text-align: center;
   font-family: "Meriweather", serif;
@@ -136,11 +136,52 @@ h3 {
   width: 100%;
 }
 
+.link,
+.theory {
+  text-align: left;
+}
+
+.gollal {
+  display: grid;
+  text-align: left;
+  grid-template-columns: 1fr 1fr;
+}
+
+.about-txt {
+  text-align: left;
+  padding: 10rem 0;
+  text-align: left;
+}
+
 @media (max-width: 375px) {
   body {
-    width: 80%;
+    max-width: 92%;
   }
   .family {
-    width: 2%;
+    width: 80%;
+  }
+
+  .work {
+    width: 120%;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
+  }
+
+  .me {
+  }
+
+  .intro-text {
+    text-align: left;
+  }
+
+  .skill-row {
+    width: 80%;
+    margin: 0;
+  }
+
+  .skills h2 {
+    margin: 0;
   }
 }
